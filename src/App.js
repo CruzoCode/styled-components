@@ -4,6 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import Spinner1 from './components/Spinner1';
 import DivTransformation from './components/DivTransformation';
 import JellyButton from './components/JellyButton';
+import FlipCard from './components/FlipCard';
+import TryComponent from './components/TryComponent';
+import CardHover from './components/CardHover';
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
         {/* <HappyEaster /> */}
         {/* <Spinner1/> */}
         {/* <DivTransformation/> */}
-        <JellyButton/>
+        {/* <JellyButton/> */}
+        {/* <FlipCard/> */}
+        {/* <TryComponent/> */}
+        <CardHover/>
       </div>
     </div>
   );
