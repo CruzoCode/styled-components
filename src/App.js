@@ -7,6 +7,7 @@ import JellyButton from './components/JellyButton';
 import FlipCard from './components/FlipCard';
 import TryComponent from './components/TryComponent';
 import CardHover from './components/CardHover';
+import HoverRainBowButton from './components/HoverRainBowButton';
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
         {/* <HappyEaster /> */}
         {/* <Spinner1/> */}
         {/* <DivTransformation/> */}
-        {/* <JellyButton/> */}
+        <JellyButton/>
         {/* <FlipCard/> */}
         {/* <TryComponent/> */}
-        <CardHover/>
+        {/* <CardHover/> */}
+        {/* <HoverRainBowButton/> */}
       </div>
     </div>
   );
